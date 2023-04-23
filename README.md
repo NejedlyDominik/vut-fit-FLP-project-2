@@ -7,7 +7,7 @@ Autor: Dominik Nejedlý (xnejed09)
 
 Program vyhledávající všechny unikátní Hamiltonovké kružnice v grafu
 implementovaný v jazyku Prolog. Vstupem (načítaným ze standardního vstupu) je
-reprezentace grafu pomocí hran tvaru "<V1> <V2>", kde vrcholy jsou velká
+reprezentace grafu pomocí hran tvaru `<V1> <V2>`, kde vrcholy jsou velká
 písmena anglické abecedy (A-Z). Příklad:
 
     A B
@@ -17,7 +17,7 @@ písmena anglické abecedy (A-Z). Příklad:
     B D
     C B
 
-Výstup je poté tvaru "<V1>-<V2> <V2>-<V3> ... <Vn-1>-<Vn>", kde každá
+Výstup je poté tvaru `<V1>-<V2> <V2>-<V3> ... <Vn-1>-<Vn>`, kde každá
 dvojice vrcholů reprezentuje hranudané kružnice, a je vytištěn na standardní výstup.
 Příklad:
 
@@ -69,7 +69,7 @@ v následující tabulce tabulka.
 
 *Poznámka: při každém měření byl výstup přeměrován do souboru, výsledný čas tedy nezahrnuje dobu tištění získaných kružnic do terminálu.*
 
-| testovací vstup | čas v s |
+| testovací vstup | čas (s) |
 | :-------------: | :-----: |
 | `test01.in`     | 0.021   |
 | `test02.in`     | 0.602   |
