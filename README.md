@@ -67,7 +67,7 @@ spouštět způsobem popsaným výše. Tedy například pro testovací vstup v s
 Pro každý testovací vstup byl měřen čas jeho běhu na serveru merlin. Výsledky tohoto měření jsou uvedeny
 v následující tabulce tabulka.
 
-*Poznámka: při každém měření byl výstup přeměrován do souboru, výsledný čas tedy nezahrnuje dobu tištění získaných kružnic do terminálu.*
+*Poznámka: při každém měření byl výstup přesměrován do souboru, výsledný čas tedy nezahrnuje dobu tištění získaných kružnic do terminálu.*
 
 | testovací vstup | čas (s) |
 | :-------------: | :-----: |
