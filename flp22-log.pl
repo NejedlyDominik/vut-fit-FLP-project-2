@@ -37,7 +37,7 @@ main :-
 load_input_edges :-
 	read_line_without_white(L, C),
 	(
-        C == end_of_file;
+        C == end_of_file, !;
         (
             L = [V1, V2|_],
             char_type(V1, upper),
