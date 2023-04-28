@@ -26,6 +26,7 @@ main :-
     load_input_edges,
     setof(V1, V2^undirected_edge(V1, V2), Vs),
     [InitV|_] = Vs, length(Vs, NumOfVs),
+    NumOfVs \= 2,
     print_unique_cycles(InitV, NumOfVs),
     free_input_edges,
 	halt.
