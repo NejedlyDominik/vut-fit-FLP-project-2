@@ -29,7 +29,7 @@ main :-
     NumOfVs \= 2,
     print_unique_cycles(InitV, NumOfVs),
     free_input_edges,
-	halt.
+    halt.
 
 /**
  * Read all lines from the standanrd input, parse them
